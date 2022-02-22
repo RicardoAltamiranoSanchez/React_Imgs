@@ -13,7 +13,7 @@ SetValor(e.target.value);
 const SubmitFormulario=(e)=>{
 e.preventDefault();
 if(inputValor.trim().length > 2){//indicamo si el valor de inputValor es mayor que ejecute el trim es para quitar los espacios
-setLista(l=>[...l,inputValor]);//añadimos un nuevo valor ala lista con el useState de este componente
+setLista(l=>[inputValor,...l]);//añadimos un nuevo valor ala lista con el useState de este componente
 SetValor('');
 }
 }
