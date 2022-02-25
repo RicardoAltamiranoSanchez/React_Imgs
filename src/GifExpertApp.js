@@ -4,7 +4,7 @@ import Coleccion from './components/Coleccion';
 const GifExpertApp=()=>{
 
 //usamoss el useState para renderizar los cambios
-const [Lista, setLista]=useState(['numero1'])
+const [Lista, setLista]=useState(['']);
 //funcion para añadir un nuevo elemento
 // const HanderAdd=()=>{
 // const variable="Que te importa";
@@ -17,7 +17,7 @@ return (
 <Fragment>
 
 <div class="Header">
-<h2>GifExpertApp</h2>
+<h2>Buscador de Imagenes</h2>
 <hr/>
 <AgregarCategoria setLista={setLista}/> 
 <ul> 

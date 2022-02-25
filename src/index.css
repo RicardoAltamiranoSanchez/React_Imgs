@@ -44,3 +44,13 @@ grid-template-columns: repeat(5,1fr);
 gap:2rem;
 
 }
+@media (max-width:768px){
+
+.lista{
+grid-template-columns: repeat(3,1fr);
+gap:1rem;
+
+}
+}
+
+
