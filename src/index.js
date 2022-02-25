@@ -14,3 +14,4 @@ ReactDOM.render(
 //documentacion de como estruturar archivos 2 en react https://es.reactjs.org/docs/faq-structure.html
 //pagina de animacion con css https://animate.style/
 //para levantar un servidor rapido con https://www.npmjs.com/package/http-server
+//https://docs.github.com/en/enterprise/2.13/user/articles/setting-your-username-in-git documentacion git
